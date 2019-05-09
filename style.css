@@ -1,0 +1,99 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: red;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  height: 30rem;
+  width: 20rem;
+  background-color: white;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.item {
+  margin: 1rem;
+}
+
+.photo {
+  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+  background-color: green;
+  background-image: url("./dheva\ copy.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.text {
+  font-family: "Comfortaa", cursive;
+  font-weight: bolder;
+}
+
+.button {
+  border-radius: 20px;
+  width: 7rem;
+  height: 0.5rem;
+  cursor: pointer;
+  background-color: red;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.button:hover {
+  background-color: rgb(255, 83, 83);
+}
+
+.name {
+  color: red;
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.sosmed-container {
+  /* background-color: yellow; */
+  height: 3rem;
+  width: 13rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  height: 2rem;
+  margin: 0.5rem;
+}
+
+.icon:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.wm {
+  height: 1rem;
+  width: 100%;
+  color: white;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  text-decoration: none;
+}
